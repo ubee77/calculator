@@ -3,11 +3,12 @@
 <head>
 	<title>calculator</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<table class="display">
 		<tr>
-			<td>GH</td>
+			<td id="disp">GH</td>
 		</tr>
 	</table>
 	<table class="keys">
@@ -18,27 +19,27 @@
 			<td> / </td>
 		</tr>
 		<tr>
-			<td> 7 </td>
-			<td> 8 </td>
-			<td> 9 </td>
-			<td> X </td>
+			<td onclick="add2str('7')"> 7 </td>
+			<td onclick="add2str('8')"> 8 </td>
+			<td onclick="add2str('9')"> 9 </td>
+			<td onclick="changeOperand('X')"> X </td>
 		</tr>
 		<tr>
-			<td> 4 </td>
-			<td> 5 </td>
-			<td> 6 </td>
-			<td> - </td>
+			<td onclick="add2str('4')"> 4 </td>
+			<td onclick="add2str('5')"> 5 </td>
+			<td onclick="add2str('6')"> 6 </td>
+			<td onclick="changeOperand('-')"> - </td>
 		</tr>
 		<tr>
-			<td> 1 </td>
-			<td> 2 </td>
-			<td> 3 </td>
-			<td> + </td>
+			<td onclick="add2str('1')"> 1 </td>
+			<td onclick="add2str('2')"> 2 </td>
+			<td onclick="add2str('3')"> 3 </td>
+			<td onclick="changeOperand('+')"> + </td>
 		</tr>
 		<tr>
 			<td> +- </td>
-			<td> 0 </td>
-			<td> . </td>
+			<td onclick="add2str('0')"> 0 </td>
+			<td onclick="add2str('.')"> . </td>
 			<td> = </td>
 		</tr>
 	</table>
