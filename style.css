@@ -1,0 +1,24 @@
+table.display{
+	width: 8cm;
+	height: 80px;
+	padding: 3px 3px 1.5px 3px;
+	background-color: #DDDDDD;
+}
+table.display td{
+	background-color: #F2F2F2;
+	text-align: right;
+	/*font-size: 2em;*/
+	padding-top: 40px;
+}
+table.keys{
+	width: 8cm;
+	background-color: #DDDDDD;
+	padding: 1.5px 3px 3px 3px;
+}
+table.keys td{
+	background-color: #C0C0C0;
+	padding-left: 50px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
