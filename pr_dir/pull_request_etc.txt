@@ -1,0 +1,4 @@
+1. merge a pull request through github website
+2. not just merge u know..., process befor merging!
+3.do the same via command line... try!
+4. later on put in service!
